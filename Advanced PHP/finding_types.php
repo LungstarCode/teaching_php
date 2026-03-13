@@ -7,7 +7,8 @@
     var_dump(is_numeric($number));
     var_dump(is_float($decimal_number));
     var_dump(is_integer($number));
-    var_dump(is_boo($number)); // false
+    var_dump(is_bool($number)); // false
     var_dump(is_string($name));
+    var_dump(is_array($name)); // false
 
 ?>
