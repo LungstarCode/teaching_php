@@ -8,9 +8,6 @@
             a - append 
             x - Create new file 
             r+ Read + Write 
-
-
-
     */
     $filename = "newfile.txt";
     if (!file_exists($filename)){
